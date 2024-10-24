@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #feb7b7;
+    color: #811744; 
+    font-weight: bold;
+}
+
+header a{
+  font-weight: normal;
+  color: #811744;
+  text-decoration: none;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white; 
+}
+
+main {
+    padding: 20px;
+    background-color: #ffffff; 
+}
+
+.students-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #811744;
+}
+
+.filter-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    background-color: #fff4f4; 
+    color: #811744;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card .heart {
+    display: inline-block;
+    float: right;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+    background-color: #feb7b7; 
+    color: #811744; 
+    font-weight: bold;
+}
+
+.social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    text-align: left;
+    color: white; 
+}
